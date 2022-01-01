@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ApplicationIcon>ark.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="ark.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Overlay.NET, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>D:\Working-Space\Learning\Overlay.NET-master\src\Overlay.NET\bin\Debug\Overlay.NET.dll</HintPath>
+      </Reference>
+      <Reference Include="Process.NET, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>D:\Working-Space\Learning\Overlay.NET-master\src\Overlay.NET\bin\Debug\Process.NET.dll</HintPath>
+      </Reference>
+      <Reference Include="SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
+        <HintPath>D:\Working-Space\Learning\Overlay.NET-master\src\Overlay.NET\bin\Debug\SharpDX.dll</HintPath>
+      </Reference>
+      <Reference Include="SharpDX.Direct2D1, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
+        <HintPath>D:\Working-Space\Learning\Overlay.NET-master\src\Overlay.NET\bin\Debug\SharpDX.Direct2D1.dll</HintPath>
+      </Reference>
+      <Reference Include="SharpDX.DXGI, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
+        <HintPath>D:\Working-Space\Learning\Overlay.NET-master\src\Overlay.NET\bin\Debug\SharpDX.DXGI.dll</HintPath>
+      </Reference>
+      <Reference Include="SharpDX.Mathematics, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
+        <HintPath>D:\Working-Space\Learning\Overlay.NET-master\src\Overlay.NET\bin\Debug\SharpDX.Mathematics.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Resource Include="ark.png" />
+    </ItemGroup>
+
+</Project>
